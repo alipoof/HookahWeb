@@ -1,3 +1,14 @@
-from django.shortcuts import render
+from django.views.generic import ListView
+from .models import Table, Reserve, Review
 
-# Create your views here.
+
+class TableListView(ListView):
+    model = Table
+
+
+class ReserveView():
+    pass
+
+
+class ReviewView():
+    pass
