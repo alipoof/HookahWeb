@@ -4,6 +4,7 @@ from .models import Table, Reserve, Review
 
 class TableListView(ListView):
     model = Table
+    svyat = 'loh'
     pass
 
 
